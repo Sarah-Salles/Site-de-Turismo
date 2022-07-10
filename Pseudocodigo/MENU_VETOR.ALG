@@ -2,13 +2,15 @@ Algoritmo "MENU_VETOR"
 
 Var
    // Seção de Declarações das variáveis
-   Nome, destino: vetor[0..3] de caracter
-   idade, RG: vetor[0..3] de inteiro
-   i:inteiro
+   Nome, destino: vetor[1..10] de caracter
+   idade, RG: vetor[1..10] de inteiro
+   m, i:inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   para i de 0 ate 3 faca
+   escreva("Quantas pessoas você deseja cadastrar? Máximo de 10 pessoas.")
+   leia(m)
+   para i de 1 ate m faca
       escreva("Digite o seu nome: ")
       leia(nome[i])
       escreva("Digite a sua idade: ")
@@ -23,7 +25,7 @@ Inicio
 
    escreva("**CADASTRO DE CLIENTES**")
    escreval("")
-   para i de 0 ate 3 faca
+   para i de 1 ate m faca
       escreval("")
       escreval("===========")
       escreval("Nome:",nome[i])
