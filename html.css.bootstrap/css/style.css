@@ -1,0 +1,13 @@
+.banner {
+    background-image: url("../images/bg-cities/angra-dos-reis.jpg");
+    background-size: cover;
+}
+
+.img-largura-max {
+    max-height: 155px;
+}
+
+.bannercontato {
+    background-image: url("../images/praia-caribe.jpg");
+    background-size: cover;
+}

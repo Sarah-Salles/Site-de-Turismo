@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Freedom</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/paletas-cores.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-roxo">
+            <div class="container">
+                <a class="navbar-brand" aria-hidden="true"><img src="images/logos/FREEDOM.png" width="110px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page" href="/">Freedom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="destino.html">Destino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="promoções.html">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--Inicio da sessão banner-->
+        <section class="banner">
+            <div class="container py-5">
+                <h1>Passagens Aéreas</h1>
+                <form class="row g-3 needs-validation bg-roxo p-3 mt-2 rounded-3" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Busque por aeroporto</label>
+                        <input type="search" class="form-control" id="validationCustom01" required>
+                        <div class="invalid-feedback">
+                            Informe o seu ponto de partida.
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Qual o seu destino?</label>
+                        <input type="search" class="form-control" id="validationCustom02" required>
+                        <div class="invalid-feedback">
+                            Informe o seu destino.
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Data de partida</label>
+                        <input type="date" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Por favor preencha a data de partida.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Data de retorno</label>
+                        <input type="date" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Por favor preencha a data de retorno.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Passageiros</label>
+                        <input type="number" min="1" max="4" maxlength="1" class="form-control" id="validationCustom04"
+                            required>
+                        <div class="invalid-feedback">
+                            Quantidade máxima de Passageiros: 4.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button class="btn btn-warning" type="submit">Buscar voos</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--Final da sessão Banner-->
+        <!--Inicio da sessão promoções-->
+        <section>
+            <div class="container py-5">
+                <p class="text-center pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptate,
+                    beatae adipisci itaque
+                    possimus perferendis veritatis aut alias, inventore quibusdam aperiam harum eius. Necessitatibus vel
+                    commodi impedit nihil illum doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Recusandae sunt, voluptates quam blanditiis ab ducimus facere sed, saepe unde modi repudiandae
+                    aperiam? Odio iste, unde vel repudiandae distinctio assumenda temporibus.</p>
+                <div class="d-flex justify-content-between flex-column flex-lg-row align-items-center">
+                    <div class="card" style="width:18rem;">
+                        <img src="./images/bg-cities/recife.jpg" class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Recife - R$898,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$1100,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Recife! A partir de R$ 898,00 por pessoa,
+                                taxas inclusas!</p>
+                            <button class="btn btn-warning" type="button">
+                                Adquira já
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card" style="width:18rem;">
+                        <img src="./images/bg-cities/foz-do-iguaçu.jpg" class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Foz do Iguaçu - R$925,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$1255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Foz do Iguaçu! A partir de R$ 925,00 por
+                                pessoa, taxas inclusas!</p>
+                            <button class="btn btn-warning" type="button">
+                                Adquira já
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card" style="width:18rem;">
+                        <img src="./images/bg-cities/rio-de-janeiro.jpeg" class="card-img-top img-largura-max"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rio de Janeiro - R$736,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$940,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para o Rio de Janeiro! A partir de R$ 736,00 por
+                                pessoa, taxas inclusas!</p>
+                            <button class="btn btn-warning" type="button">
+                                Adquira já
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer class="bg-roxo">
+            <div class="container text-center py-5">
+                <a href="/" class="navbar-brand text-light"></a>
+                <img src="/images/logos/FREEDOM.png" width="100px" alt="">
+                <div class="mt-4">
+                    <a href="https://www.facebook.com/" target="_blank" class="navbar-brand text-light">
+                        <img src="images/icons/facebook.png" width="50px" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="navbar-brand text-light mx-3">
+                        <img src="/images/icons/instagram.png" width="50px" alt="">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" class="navbar-brand text-light me-3">
+                        <img src="/images/icons/twitter.png" width="50px" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" class="navbar-brand text-light">
+                        <img src="/images/icons/youtube.png" width="50px" alt="">
+                    </a>
+                </div>
+                <br>
+                <p>Desenvolvido por <strong>SSS</strong> &copy; Freedom turismo 2022.</p>
+            </div>
+
+        </footer>
+    </main>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
