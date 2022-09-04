@@ -19,15 +19,22 @@ insert into cidades(nome,estado,pais,continente) values("Rio de Janeiro","RJ","B
 insert into cidades(nome,estado,pais,continente) values("Brasília","DF","Brasil","America do Sul");
 insert into cidades(nome,estado,pais,continente) values("Toronto","ON","Canadá","America do Norte");
 
-CREATE TABLE Passagens (
+SELECT * FROM cidades;
+
+CREATE TABLE Passagem (
 Id INTEGER PRIMARY KEY auto_increment,
-Valor int,
+Valor double,
 Desconto int,
-Valor_Promocional int,
-Data_Ida DATETIME,
-Data_Volta DATETIME,
+Valor_Promocional double,
+Data_Ida DATE,
+Data_Volta DATE,
 Id_Cidade int,
 FOREIGN KEY(Id_Cidade) REFERENCES Cidades (Id)
 );
 
-select * from passagens;
+select * from passagem;
+
+insert into passagem(valor,desconto,valor_promocional,data_ida,data_volta,id_cidade) values(400,0,400,"2022-10-20","2022-10-26",4);
+insert into passagem(valor,desconto,valor_promocional,data_ida,data_volta,id_cidade) values(550,0,550,"2022-9-11","2022-9-16",2);
+insert into passagem(valor,desconto,valor_promocional,data_ida,data_volta,id_cidade) values(750,0,750,"2022-12-05","2022-12-12",6);
+insert into passagem(valor,desconto,valor_promocional,data_ida,data_volta,id_cidade) values(3000,0,3000,"2022-11-06","2022-11-12",8);
