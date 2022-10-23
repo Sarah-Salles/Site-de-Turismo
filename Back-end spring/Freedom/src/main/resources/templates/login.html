@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>    
+	<meta charset="UTF-8">    
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" th:href="@{/css/paletas-cores.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">   
+	<title>Document</title>
+	
+</head>
+
+<body> 
+<nav th:replace="fragments/header::html_header(pageActive='login')"></nav>   
+<div class="row my-5">
+<div class="col-lg-6 mx-auto col-11">
+	<form method="post" action="/login">
+            <label for="email" class="form-label">E-mail*</label>
+            <input required id="email" class="w-100 form-control mb-2" type="email" name="username" />
+            <label for="password" class="form-label">Senha*</label>
+            <input required id="password" class="w-100 form-control" type="password" name="password" />
+            <div class="text-center">
+              <input class="w-50 btn btn-warning my-3" type="submit" value="Entrar" />
+            </div>
+          </form>
+	</div>	
+	</div>
+	<footer th:replace="fragments/footer::html_footer"></footer>
+	
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

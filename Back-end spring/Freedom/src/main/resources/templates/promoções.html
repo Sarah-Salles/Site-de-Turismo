@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Freedom</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" th:href="@{/css/paletas-cores.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+<nav th:replace="fragments/header::html_header(pageActive='promocoes')"></nav>
+    <main>
+        
+        <section>
+            <div class="container py-5">
+                <h1 class="pb-1 text-warning">Promoções Imperdíveis!!</h1>
+                <h5 class="pb-4">Destinos Nacionais e Internacionais.</h5>
+                <div class="d-flex justify-content-between flex-column flex-lg-row align-items-center">
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-estados/bahia.jpg}" class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bahia - R$768,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$1100,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Bahia! A partir de R$ 768,00 por pessoa,
+                                taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <!--Inicio card promoção nacional-->
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-estados/minas-gerais.jpg}" class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Minas Gerais - R$825,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$1255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Minas Gerais! A partir de R$ 825,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-estados/paraná.jpg}" class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paraná - R$686,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$940,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para o Paraná! A partir de R$ 686,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between flex-column flex-lg-row align-items-center">
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-estados/rio-de-janeiro.jpg}" class="card-img-top img-largura-max"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rio de Janeiro - R$798,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$1100,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Rio de Janeiro! A partir de R$ 798,00 por
+                                pessoa,
+                                taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-estados/rio-grande-do-sul.jpg}" class="card-img-top img-largura-max"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rio Grande do Sul - R$825,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$1255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Rio Grande do Sul! A partir de R$ 825,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-estados/são-paulo.jpg}" class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">São Paulo - R$636,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$940,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para o São Paulo! A partir de R$ 636,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Inicio card promoção nacional-->
+                <!--inicio promoção internacional-->
+                <div class="d-flex justify-content-between flex-column flex-lg-row align-items-center">
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-continentes/américa-do-norte-new-york.jpg}"
+                            class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">New York - R$3048,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$4255,00</s>
+                            </h6>
+
+                            <p class="card-text">PASSAGEM Ida e Volta para New York! A partir de R$ 3048,00 por pessoa,
+                                taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-continentes/américa-do-sul-lima.jpg}" class="card-img-top img-largura-max"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lima - R$1734,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$2255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Lima! A partir de R$ 1734,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-continentes/europa-paris.jpg}" class="card-img-top img-largura-max"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paris - R$3669,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$4255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para o Paris! A partir de R$3669,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between flex-column flex-lg-row align-items-center">
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-continentes/áfrica-marrocos.jpg}" class="card-img-top img-largura-max"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Marrocos - R$2392,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$3255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para o Marrocos! A partir de R$ 2392,00 por
+                                pessoa,
+                                taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-continentes/ásia-bangkok.jpg}" class="card-img-top img-largura-max"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bangkok - R$3138,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$4255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para Bangkok! A partir de R$ 3138,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width:18rem;">
+                        <img th:src="@{/images/bg-continentes/américa-central-costa-rica.jpg}"
+                            class="card-img-top img-largura-max" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Costa Rica - R$1797,00</h5>
+                            <h6 class="card-subtitle mb-2 text-danger">
+                                <s>R$2255,00</s>
+                            </h6>
+                            <p class="card-text">PASSAGEM Ida e Volta para o Costa Rica! A partir de R$ 1797,00 por
+                                pessoa, taxas inclusas!</p>
+                            <hr>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam commodi corrupti
+                                iusto, aperiam voluptatem ipsam. Deleniti at...</p>
+                            <button class="btn btn-warning" type="button">
+                                Saiba Mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--Fim promoção internacional-->
+        
+        <footer th:replace="fragments/footer::html_footer"></footer>
+
+    </main>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

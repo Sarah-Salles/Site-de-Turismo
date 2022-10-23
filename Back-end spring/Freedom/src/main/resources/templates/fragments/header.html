@@ -1,0 +1,36 @@
+   <nav th:fragment="html_header" class="navbar navbar-expand-lg navbar-dark bg-roxo">
+            <div class="container">
+                <a class="navbar-brand" aria-hidden="true"><img th:src="@{/images/logos/FREEDOM.png}" width="110px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" th:classappend="${pageActive == 'home'} ? 'active' : '' " href="/pages/">Freedom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:classappend="${pageActive == 'destino'} ? 'active' : '' " href="/pages/destino">Destino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:classappend="${pageActive == 'promocoes'} ? 'active' : '' " href="/pages/promocoes">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:classappend="${pageActive == 'contato'} ? 'active' : '' " href="/pages/contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:classappend="${pageActive == 'cadastro'} ? 'active' : '' " href="/pages/signup">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:classappend="${pageActive == 'login'} ? 'active' : '' " href="/pages/login">Login</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>

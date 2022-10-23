@@ -1,0 +1,29 @@
+.first-color { 
+	background: #5f5dbd; 
+}
+	
+.second-color { 
+	background: #5e87b8; 
+}
+
+.third-color { 
+	background: #838ee0; 
+}
+
+.fourth-color { 
+	background: #a4fbe3; 
+}
+.bg-roxo {
+background-color: #5f5dbd;
+}
+.bg-azul {
+    background-color: #5e87b8;
+}
+
+.bg-verde {
+	background-color: #a4fbe3;
+}
+
+.bg-novoroxo {
+	background-color: #838ee0;
+}
